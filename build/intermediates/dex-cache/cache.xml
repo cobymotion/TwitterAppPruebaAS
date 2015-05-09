@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/coby/Dropbox/Curso android/Senior/05 Redes Sociales/TwitterAppPruebaAS/app/libs/twitter4j-core-4.0.3.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="cb244e5be126bf0a8114c8a64a5d26c6490b9ef2">
+        <dex dex="/Users/coby/Dropbox/Curso android/Senior/05 Redes Sociales/TwitterAppPruebaAS/app/build/intermediates/pre-dexed/debug/twitter4j-core-4.0.3-8199fd4e82a356fc11e9ed62ff48ca78dc4d4d7e.jar" />
+    </item>
+    <item
+        jar="/Users/coby/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/18.0.0/support-v4-18.0.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="/Users/coby/Dropbox/Curso android/Senior/05 Redes Sociales/TwitterAppPruebaAS/app/build/intermediates/pre-dexed/debug/support-v4-18.0.0-a0f28e26e7792d4bc7a020d8d53692193aed56f4.jar" />
+    </item>
+
+</items>

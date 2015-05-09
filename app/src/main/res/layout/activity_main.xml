@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <Button
+	    android:id="@+id/conectarTwitter"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_alignLeft="@+id/textoTweet"
+	    android:layout_alignParentTop="true"
+	    android:text="Conectar"
+	    android:layout_marginTop="14dp" />
+    	
+
+	<EditText
+	    android:id="@+id/textoTweet"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@+id/conectarTwitter"
+	    android:layout_centerHorizontal="true"
+	    android:layout_marginTop="14dp"
+	    android:ems="10"
+	    android:textSize="30sp" />
+
+	<Button
+	    android:id="@+id/enviarTweet"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_alignLeft="@+id/textoTweet"
+	    android:layout_below="@+id/textoTweet"
+	    android:layout_marginTop="46dp"
+	    android:text="ENVIAR TWEET" />
+	
+</RelativeLayout>
